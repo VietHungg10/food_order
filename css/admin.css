@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    ;}
+    .clearfix{
+        float: none;
+        clear: both;
+    }
+    .wrapper {
+        
+        padding: 1%;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+    .menu{
+        border-bottom: 1px solid black;
+    }
+    .menu ul {
+        list-style-type: none;
+    }
+
+    .menu li {
+        display: inline;
+        padding: 1%;
+    }
+
+    .menu ul li a {
+        text-decoration: none;
+        font-weight: bold;
+        color: #ff6b6b;
+    }
+
+    .menu ul li a:hover {
+        color: #ee5253;
+    }
+
+    /*Main content*/
+
+    .main_content {
+        padding: 3% 0;
+        background-color: #c8d6e5
+    }
+    .col-4{
+        background-color:white;
+        margin: 1%;
+        padding: 2%;
+        width: 19%;
+        float: left;
+    }
+    /*Footer*/
+    .footer {
+        background-color: #ff6b6b;
+        color: white;
+    }
+    .tbl-full{
+        width: 100%;
+   
+    }
+    .tbl-30{
+     width: 30%;   
+     
+    }
+    table tr th {
+        border-bottom: 1px solid  black;
+        padding: 1%;
+        text-align: left;
+    }
+    table tr td{
+        padding: 1%;
+        border-bottom: 1px solid  black;
+        text-align: left;
+    }
+    .btn-add{
+        background-color:#ffeaa7;
+        padding: 1%;
+        color: #e17055;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .btn-add:hover{
+        background-color: #fdcb6e;
+    }
+    .btn-update{
+        background-color:#55efc4;
+        padding: 1%;
+        color:#e17055;
+        text-decoration: none;
+        font-weight: bold;
+        
+    }
+    .btn-update:hover{
+        background-color: #00b894;
+    }
+    .btn-delete{
+        background-color:#ff7675;
+        padding: 1%;
+        color: #f0eae9;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .btn-delete:hover{
+        background-color:#d63031;
+    }
+   .success{
+    color:#27ae60 ;
+   }
+   .error{
+    color: #b70c0c;
+   }
+   /* General styling for the form container */
+form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+/* Styling for the table */
+.tbl-30 {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Styling for the table rows and cells */
+.tbl-30 td {
+    padding: 10px;
+    vertical-align: middle;
+}
+
+/* Styling for the labels and input fields */
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Styling for the submit button */
+.btn-add, button[type="submit"] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-add:hover, button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Centering the table within the form */
+form table {
+    margin: 0 auto;
+}
+
+/* Additional styling for responsiveness */
+@media screen and (max-width: 600px) {
+    form {
+        width: 90%;
+    }
+
+    .tbl-30 td {
+        display: block;
+        width: 100%;
+    }
+
+    .tbl-30 td input {
+        width: 100%;
+    }
+}
